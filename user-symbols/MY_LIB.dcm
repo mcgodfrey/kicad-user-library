@@ -1,0 +1,66 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP BCP52
+D -1A Ic, -60V Vce, PNP Transistor, SOT-223
+K PNP Transistor
+F https://www.diodes.com/assets/Datasheets/BCP51_52_53.pdf
+$ENDCMP
+#
+$CMP BCP5216
+D -1A Ic, -60V Vce, PNP Transistor, SOT-223
+K PNP Transistor
+F https://www.diodes.com/assets/Datasheets/BCP51_52_53.pdf
+$ENDCMP
+#
+$CMP BCP5616
+D 1A Ic, 80V Vce,NPN Transistor, SOT-223
+K NPN Transistor
+F https://www.diodes.com/assets/Datasheets/BCP5616Q.pdf
+$ENDCMP
+#
+$CMP DRV8302
+D Brushless DC motor controller
+F C:/Users/matt/Desktop/motor controller datasheets/drv8302.pdf
+$ENDCMP
+#
+$CMP MCP23008
+D IC I/O EXPANDER I2C 8B 18DIP
+K MCP23008-E/P-ND
+F http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en021920
+$ENDCMP
+#
+$CMP MCP3302
+D MCP3302 13-bit 2/4 ch differential input ADC
+$ENDCMP
+#
+$CMP MCP4812
+D 2-Channel 10-Bit D/A Converters with SPI Interface and Internal Reference (2.048V)
+K 10-Bit DAC SPI Reference 2ch
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20002249B.pdf
+$ENDCMP
+#
+$CMP MCP4822
+D 2-Channel 12-Bit D/A Converters with SPI Interface and Internal Reference (2.048V)
+K 12-Bit DAC SPI Reference 2ch
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20002249B.pdf
+$ENDCMP
+#
+$CMP MCP48FVB22
+D 2-Channel 12-Bit D/A Converters with SPI Interface and external reference
+K 8-Bit DAC SPI Reference 2ch
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20005466A.pdf
+$ENDCMP
+#
+$CMP RAC10-15DK
+D 10 Watt Dual Output AC/DC power supply with +-15V outputs
+K ac dc power supply
+F https://recom-power.com/pdf/Powerline_AC-DC/RAC10-K_277.pdf
+$ENDCMP
+#
+$CMP multismu_node_connector
+D Generic connector, double row, 02x18, row letter first pin numbering scheme (pin number consists of a letter for the row and a number for the pin index in this row. A1, ..., AN; B1, ..., BN), script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
+#End Doc Library
