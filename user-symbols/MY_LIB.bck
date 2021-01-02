@@ -1,9 +1,45 @@
 EESchema-DOCLIB  Version 2.0
 #
-$CMP BCP56
-D 1A Ic, 80V Vce, NPN Medium Power Transistor, SOT-223
-K NPN Transistor
-F http://cache.nxp.com/documents/data_sheet/BCP56_BCX56_BC56PA.pdf?pspll=1
+$CMP 0R1
+D Resistor
+K R res resistor
+F ~
+$ENDCMP
+#
+$CMP 220u
+D Polarized capacitor
+K cap capacitor
+F https://datasheet.lcsc.com/szlcsc/1810191717_Nichicon-UUD1H221MNL1GS_C125976.pdf
+$ENDCMP
+#
+$CMP 74HC4051
+D 8-channel analog multiplexer/demultiplexer, DIP-16/SOIC-16/TSSOP-16
+K HCMOS Multiplexer Demultiplexer Analog
+F http://www.ti.com/lit/ds/symlink/cd74hc4051.pdf
+$ENDCMP
+#
+$CMP 74HCT4051
+D 8-channel analog multiplexer/demultiplexer, DIP-16/SOIC-16/TSSOP-16
+K TTL Multiplexer Demultiplexer Analog
+F http://www.ti.com/lit/ds/symlink/cd74hct4051.pdf
+$ENDCMP
+#
+$CMP ADS1015IDGS
+D Ultra-Small, Low-Power, I2C-Compatible, 3.3-kSPS, 12-Bit ADCs With Internal Reference, Oscillator, and Programmable Comparator, VSSOP-10
+K 12 bit 4 channel I2C ADC
+F http://www.ti.com/lit/ds/symlink/ads1015.pdf
+$ENDCMP
+#
+$CMP BCP52
+D -1A Ic, -60V Vce, PNP Transistor, SOT-223
+K PNP Transistor
+F https://www.diodes.com/assets/Datasheets/BCP51_52_53.pdf
+$ENDCMP
+#
+$CMP BCP5216
+D -1A Ic, -60V Vce, PNP Transistor, SOT-223
+K PNP Transistor
+F https://www.diodes.com/assets/Datasheets/BCP51_52_53.pdf
 $ENDCMP
 #
 $CMP BCP5616
@@ -17,6 +53,54 @@ D Brushless DC motor controller
 F C:/Users/matt/Desktop/motor controller datasheets/drv8302.pdf
 $ENDCMP
 #
+$CMP INA128
+D Precision, Low Power Instrumentation Amplifier G = 1 + 50kOhm/Rg, DIP-8/SOIC-8
+K instrumentation opamp
+F http://www.ti.com/lit/ds/symlink/ina128.pdf
+$ENDCMP
+#
+$CMP IRLR3114
+D N-Channel 40V 42A 2.5V @ 100uA 4.9mΩ @ 42A,10V 140W
+K transistor NMOS N-MOS N-MOSFET
+F https://datasheet.lcsc.com/szlcsc/International-Rectifier-IR-IRLR3114ZTRPBF_C67278.pdf
+$ENDCMP
+#
+$CMP LED_BLUE
+D Light emitting diode 2.5 - 3.1Vf at 5mA If
+K LED diode
+F https://datasheet.lcsc.com/szlcsc/1811101510_Everlight-Elec-19-217-BHC-ZL1M2RY-3T_C72041.pdf
+$ENDCMP
+#
+$CMP LED_GREEN
+D Light emitting diode 3.3Vf at 20mA If
+K LED diode
+F https://datasheet.lcsc.com/szlcsc/1811101510_Everlight-Elec-19-217-GHC-YR1S2-3T_C72043.pdf
+$ENDCMP
+#
+$CMP LED_RED
+D Light emitting diode 2Vf at 20mA If
+K LED diode
+F https://datasheet.lcsc.com/szlcsc/2008201032_Foshan-NationStar-Optoelectronics-NCD0805R1_C84256.pdf
+$ENDCMP
+#
+$CMP LED_YELLOW
+D Light emitting diode 1.7 - 2.3Vf at 20mA If
+K LED diode
+F https://datasheet.lcsc.com/szlcsc/1810101813_Everlight-Elec-19-213-Y2C-CQ2R2L-3T-CY_C72038.pdf
+$ENDCMP
+#
+$CMP LM334M
+D 1μA to 10mA 3-Terminal Adjustable Current Source, SO-8
+K Adjustable Current Source 10mA
+F http://www.ti.com/lit/ds/symlink/lm134.pdf
+$ENDCMP
+#
+$CMP LT3080xMS8E
+D Adjustable 1.1A Single Resistor Low Dropout Regulator, MSOP-8
+K Adjustable 1.1A Low Dropout Regulator
+F https://www.analog.com/media/en/technical-documentation/data-sheets/3080fc.pdf
+$ENDCMP
+#
 $CMP MCP23008
 D IC I/O EXPANDER I2C 8B 18DIP
 K MCP23008-E/P-ND
@@ -27,15 +111,9 @@ $CMP MCP3302
 D MCP3302 13-bit 2/4 ch differential input ADC
 $ENDCMP
 #
-$CMP MCP4812
-D 2-Channel 10-Bit D/A Converters with SPI Interface and Internal Reference (2.048V)
-K 10-Bit DAC SPI Reference 2ch
-F http://ww1.microchip.com/downloads/en/DeviceDoc/20002249B.pdf
-$ENDCMP
-#
 $CMP MCP4822
-D 2-Channel 12-Bit D/A Converters with SPI Interface and Internal Reference (2.048V)
-K 12-Bit DAC SPI Reference 2ch
+D 2-Channel 8-Bit D/A Converters with SPI Interface and Internal Reference (2.048V)
+K 8-Bit DAC SPI Reference 2ch
 F http://ww1.microchip.com/downloads/en/DeviceDoc/20002249B.pdf
 $ENDCMP
 #
@@ -45,10 +123,94 @@ K 8-Bit DAC SPI Reference 2ch
 F http://ww1.microchip.com/downloads/en/DeviceDoc/20005466A.pdf
 $ENDCMP
 #
+$CMP MDDSS54
+D Schottky diode
+K diode Schottky
+F https://datasheet.lcsc.com/szlcsc/1810192041_MDD-Microdiode-Electronics-SS54_C22452.pdf
+$ENDCMP
+#
+$CMP MMBT3904
+D 0.2A Ic, 45V Vce, NPN Transistor, SOT-23
+K NPN Transistor
+F https://www.onsemi.com/pub/Collateral/BC818-D.pdf
+$ENDCMP
+#
+$CMP NCS2007
+D Quad operational amplifier, 50uV Offset, 0.25uV/C, 35uA Zero-Drift, SOIC-14
+K quad opamp low-power
+F http://www.onsemi.com/pub/Collateral/NCS325-D.PDF
+$ENDCMP
+#
+$CMP PCA9555PW
+D IO expander 16 GPIO, I2C 400kHz, Interrupt, 2.3 - 5.5V, TSSOP-24
+K I2C TWI IO expander
+F https://www.nxp.com/docs/en/data-sheet/PCA9555.pdf
+$ENDCMP
+#
 $CMP RAC10-15DK
 D 10 Watt Dual Output AC/DC power supply with +-15V outputs
 K ac dc power supply
 F https://recom-power.com/pdf/Powerline_AC-DC/RAC10-K_277.pdf
+$ENDCMP
+#
+$CMP S9015
+D 0.1A Ic, -45V Vce, PNP Transistor, SOT-23
+K PNP Transistor
+F https://datasheet.lcsc.com/szlcsc/Changjiang-Electronics-Tech-CJ-S9015_C2149.pdf
+$ENDCMP
+#
+$CMP SLF12575T-150M4R7-PF
+D 15uH ±20% 4.7A 22.1mΩ 12.5*12.5*7.5 Power Inductors RoHS
+K inductor choke coil reactor magnetic
+F https://datasheet.lcsc.com/szlcsc/1809291621_TDK-SLF12575T-150M4R7-PF_C136211.pdf
+$ENDCMP
+#
+$CMP SLO1365H330
+D Inductor
+K inductor choke coil reactor magnetic
+F ~
+$ENDCMP
+#
+$CMP SS210
+D 100V 2A 850mV @ 2A SMA(DO-214AC) Schottky Barrier Diodes (SBD)
+K diode Schottky
+F https://datasheet.lcsc.com/szlcsc/1811071613_MDD-Microdiode-Electronics-SS210_C14996.pdf
+$ENDCMP
+#
+$CMP SS36
+D Schottky diode
+K diode Schottky
+F https://datasheet.lcsc.com/szlcsc/1809042323_Vishay-Intertech-SS36-E3-57T_C35722.pdf
+$ENDCMP
+#
+$CMP SS54
+D Schottky diode
+K diode Schottky
+F https://datasheet.lcsc.com/szlcsc/1810192041_MDD-Microdiode-Electronics-SS54_C22452.pdf
+$ENDCMP
+#
+$CMP TPS40210DGQR
+D IC REG CTRLR MULT TOP 10MSOP
+K 296-26969-1-ND
+F http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftps40210
+$ENDCMP
+#
+$CMP TPS5430DDA
+D 3A, Step Down Swift Converter, Adjustable Output Voltage, 5.5-36V Input Voltage, PowerSO-8
+K Step-Down DC-DC Switching Regulator
+F http://www.ti.com/lit/ds/symlink/tps5430.pdf
+$ENDCMP
+#
+$CMP TPS54331
+D 3.5V to 28V Input, 3A, 570kHz Step-Down Converter with Eco-mode
+K Step-Down DC-DC Switching Regulator High Voltage High Frequency
+F http://www.ti.com/lit/ds/symlink/tps54331.pdf
+$ENDCMP
+#
+$CMP VZH331M1ATR-0607
+D 330uF ±20% 10V SMD,6.3x7.7mm Aluminum Electrolytic Capacitors - SMD RoHS
+K cap capacitor
+F https://datasheet.lcsc.com/szlcsc/1810081522_Lelon-VZH331M1ATR-0607_C134823.pdf
 $ENDCMP
 #
 $CMP multismu_node_connector

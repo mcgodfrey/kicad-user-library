@@ -1,0 +1,21 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 10k
+D Resistor
+K R res resistor
+F ~
+$ENDCMP
+#
+$CMP 1k
+D Resistor
+K R res resistor
+F ~
+$ENDCMP
+#
+$CMP 56R
+D Resistor
+K R res resistor
+F ~
+$ENDCMP
+#
+#End Doc Library

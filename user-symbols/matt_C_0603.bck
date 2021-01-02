@@ -1,0 +1,47 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 0.1u
+D 100nF ±10% 50V X7R 0603 Multilayer Ceramic Capacitors MLCC
+K cap capacitor
+F https://datasheet.lcsc.com/szlcsc/1809301912_YAGEO-CC0603KRX7R9BB104_C14663.pdf
+$ENDCMP
+#
+$CMP 150p
+D 150pF ±10% 50V X7R 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT RoHS
+K cap capacitor
+$ENDCMP
+#
+$CMP 1u
+D 100nF ±10% 50V X7R 0603 Multilayer Ceramic Capacitors MLCC
+K cap capacitor
+$ENDCMP
+#
+$CMP 20n
+D 22nF ±10% 50V X7R 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT RoHS
+K cap capacitor
+F https://datasheet.lcsc.com/szlcsc/1811101610_Samsung-Electro-Mechanics-CL10B223KB8NNNC_C21122.pdf
+$ENDCMP
+#
+$CMP 220n
+D 100nF ±10% 50V X7R 0603 Multilayer Ceramic Capacitors MLCC
+K cap capacitor
+$ENDCMP
+#
+$CMP 22n
+D 22nF ±10% 50V X7R 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT RoHS
+K cap capacitor
+F https://datasheet.lcsc.com/szlcsc/1811101610_Samsung-Electro-Mechanics-CL10B223KB8NNNC_C21122.pdf
+$ENDCMP
+#
+$CMP 4.7n
+D 4.7nF ±10% 50V X7R 0603 Multilayer Ceramic Capacitors MLCC
+K cap capacitor
+F https://datasheet.lcsc.com/szlcsc/1811061811_FH-Guangdong-Fenghua-Advanced-Tech-0603B472K500NT_C53987.pdf
+$ENDCMP
+#
+$CMP 68p
+D 68pF ±5% 50V C0G 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT RoHS
+K cap capacitor
+$ENDCMP
+#
+#End Doc Library
